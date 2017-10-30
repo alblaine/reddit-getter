@@ -25,7 +25,7 @@ reddit = praw.Reddit(client_id='your id here',
 # #### Step 4: create a subreddit instance. Put the subreddit forum name inside the parentheses.
 
 # create a subreddit instance with subreddit forum name in parentheses
-subreddit = reddit.subreddit('ccna')
+subreddit = reddit.subreddit('dataviz')
 
 
 # #### Step 5: get the data in json format and write it to a text file called 'data.txt'. This file will be saved in whatever directory this notebook file is in.
