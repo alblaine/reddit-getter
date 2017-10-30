@@ -40,7 +40,7 @@ comment_info ={}
 # specify which fields you want to get from Reddit posts
 fields = ('title', 'url', 'selftext', 'score', 'created_utc', 'num_comments')
 
-# get the most data you can (limit=none)
+# to get the most data you can, set limit=none. 
 for submission in reddit.subreddit('ccna').hot(limit=500):
 
     for index, comment in enumerate(submission.comments):
