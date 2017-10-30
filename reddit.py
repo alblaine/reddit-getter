@@ -8,7 +8,7 @@
 # #### Step 2: Create and register your new app.
 # Instructions:
 # * Go to this site: https://ssl.reddit.com/prefs/apps/
-# * Provide information to register a new app. If you don't know what callback url to use, provide http://www.google.com
+# * Provide information to register a new app.
 # * Save your app
 # * Keep this tab open. You are going to need some information about your app to continue
 
