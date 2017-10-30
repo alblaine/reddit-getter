@@ -6,10 +6,9 @@ In order to run this script, you need to save it to your computer and remember w
 
 To find out whether you have python, open your command prompt (terminal) and type `python --version`. 
 
+Once you have python installed, download the reddit.py file. In your command (terminal) window, navigate to the folder where the file is installed. 
 
-Once you have python installed, download the reddit.py file. Navigate to the folder where the file is installed in your command (terminal) wowindow. 
-
-Example: `cd downloads`
+Example of navigating to the `downloads` folder using a UNIX command: `cd downloads`
 
 Once in the right folder, type `python reddit.py`. If you have python 3 installed, type `python3 reddit.py`. 
 
