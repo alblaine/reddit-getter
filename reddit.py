@@ -41,7 +41,7 @@ comment_info ={}
 fields = ('title', 'url', 'selftext', 'score', 'created_utc', 'num_comments')
 
 # to get the most data you can, set limit=none. 
-for submission in reddit.subreddit('ccna').hot(limit=500):
+for submission in reddit.subreddit('dataviz').hot(limit=500):
 
     for index, comment in enumerate(submission.comments):
         post = vars(submission)
